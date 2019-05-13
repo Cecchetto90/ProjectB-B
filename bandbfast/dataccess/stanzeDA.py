@@ -14,7 +14,7 @@ def getAllStanze():
 
 
 def getStanza(stanza_id):
-    stanza = Stanza().query(Stanza.stanza_id==stanza_id).fetch(1)
+    stanza = Stanza().query(Stanza.stanza_id == stanza_id).fetch(1)
     return stanza
 
 
